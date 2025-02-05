@@ -1,13 +1,5 @@
 #!/usr/bin/env bash
 
-# required variables
-ARGO_DOMAIN=${ARGO_DOMAIN}
-ARGO_TOKEN=${ARGO_TOKEN}
-
-CLIENT_HOST=${CLIENT_HOST}
-CLIENT_SECRET=${CLIENT_SECRET}
-
-# auto generated variables
 DATA_DIR="$(pwd)/data"
 WORK_DIR="$(pwd)"
 UUID=${UUID:-"$(uuidgen)"}
