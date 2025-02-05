@@ -7,7 +7,7 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-COPY *.json .
+COPY package.json .
 
 RUN npm install -r package.json && \
     npm cache clean --force
